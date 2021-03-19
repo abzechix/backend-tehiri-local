@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "tehiri-sos",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "graphql": "^15.5.0",
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.4.0",
@@ -28,7 +29,7 @@
     "strapi-utils": "3.5.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Abderrahim"
   },
   "strapi": {
     "uuid": "0e2f9034-6bba-420e-aa6a-e8300e2d98f4"
