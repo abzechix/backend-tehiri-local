@@ -1,0 +1,15 @@
+---
+application:
+  name: "tehiri-back"
+  project: "tehiri-back"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "db"
+  version: "12"
+routers:
+- name: "main-tehiri-back"
+  routes:
+  - application_name: "tehiri-back"
+    paths:
+    - "/*"
