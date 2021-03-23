@@ -1,0 +1,20 @@
+---
+application:
+  name: "tehiri-back"
+  project: "sos-tehiri"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "images"
+    size: "500"
+    type: "slow_hdd"
+    mount_point: "/mnt/images"
+databases:
+- type: "POSTGRESQL"
+  name: "tehiri"
+  version: "10"
+routers:
+- name: "main-tehiri-back"
+  routes:
+  - application_name: "tehiri-back"
+    paths:
+    - "/*"
