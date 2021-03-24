@@ -25,6 +25,8 @@
     "strapi-plugin-graphql": "^3.5.3",
     "strapi-plugin-upload": "3.5.0",
     "strapi-plugin-users-permissions": "3.5.0",
+    "strapi-provider-upload-ftp-hash": "^3.0.0-beta.16.8.1",
+    "strapi-provider-upload-ftp-v2": "^1.1.0",
     "strapi-utils": "3.5.0"
   },
   "author": {

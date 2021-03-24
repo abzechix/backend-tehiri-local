@@ -1,17 +1,13 @@
-// module.exports = ({ env }) => ({
-//   // ...
-//   upload: {
-//     provider: 'cloudinary',
-//     providerOptions: {
-//       cloud_name: env('CLOUDINARY_NAME'),
-//       api_key: env('CLOUDINARY_KEY'),
-//       api_secret: env('CLOUDINARY_SECRET'),
-//     },
-    
-//     actionOptions: {
-//       upload: {},
-//       delete: {},
-//     },
-//   },
-//   // ...
-// });
+module.exports = ({ env }) => ({
+    upload: {
+      provider: 'ftp-v2',
+      providerOptions: {
+        host: 'ftp.zoos6698.odns.fr',
+        port: 21,
+        user: 'tehiri@tehiri.ntic-center-corporation.com',
+        password: 'Azerty2020',
+        basePath: '/',
+        baseUrl: 'tehiri.ntic-center-corporation.com/',
+      },
+    },
+  });
