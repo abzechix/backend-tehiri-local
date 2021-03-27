@@ -1,15 +1,15 @@
 ---
 application:
-  name: "tehiri-back"
-  project: "tehiri-back"
+  name: "backend-tehiri-local"
+  project: "tehiri-strappi"
   organization: "QoveryCommunity"
 databases:
 - type: "POSTGRESQL"
-  name: "db"
+  name: "strapi"
   version: "12"
 routers:
-- name: "main-tehiri-back"
+- name: "main-backend-tehiri-local"
   routes:
-  - application_name: "tehiri-back"
+  - application_name: "backend-tehiri-local"
     paths:
     - "/*"
